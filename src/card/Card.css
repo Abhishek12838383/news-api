@@ -1,0 +1,30 @@
+.card{
+    margin-top:10vh;
+    display:flex;
+    justify-content:center;
+    gap:9vw;
+    flex-wrap:wrap;
+}
+.card-item img{
+    height:350px;
+    width:350px;
+    border-radius:10px;
+}
+.card-item h3{
+    font-size:16px;
+    font-weight:500;
+    width:15vw;
+}
+.card-item p{
+    font-size:14px;
+    color:gray;
+    width:20vw;
+}
+.card-item button{
+    padding:10px 20px;
+    background-color:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}

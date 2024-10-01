@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.nav-logo{
+    color:red;
+    font-size: 24px;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+}
+.nav-search input{
+height:30px;
+width:200px;
+border-radius:10px;
+margin-right:10px;
+padding-left:10px;
+}
+.nav-search button{
+height:35px;
+    width:120px;
+    border-radius:99px;
+    background-color:lightblue;
+    border:none;
+}
+.btns{
+    margin-left:5vw;
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.btn-1{
+    cursor:pointer;
+    height:35px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-right:5px;
+color:white;
+    border-radius:99px;
+    background-color:gray;
+    border:none;
+}
+.banner{
+    margin-left:5vw;
+    margin-top:20px;
+}
+.banner img{
+    width:90vw;
+    height:30vh;
+}
