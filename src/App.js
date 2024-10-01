@@ -5,7 +5,7 @@ import Card from './card/Card';
 
 function App() {
 
-const[search,setsearch] = useState('game');
+const[search,setsearch] = useState('');
 
 const[news,setnews] = useState([]);
 
@@ -19,9 +19,6 @@ console.log(data.articles);
 setnews(data.articles);
 }
 
-useEffect(()=>{
- getdata();
-},[])
 
 
 const userinput = (e)=>{
